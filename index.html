@@ -102,6 +102,50 @@
 
   gtag('config', 'G-Z795HK2B5V');
 </script>
+    <script>
+
+// Define dataLayer y la función gtag.
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+ 
+// IMPORTANTE: NO COPIES NI PEGUES SIN MODIFICAR LA LISTA DE REGIONES
+
+// Configura el consentimiento predeterminado para regiones concretas según tus requisitos
+
+gtag('consent', 'default', {
+
+  'ad_storage': 'denied',
+
+  'ad_user_data': 'denied',
+
+  'ad_personalization': 'denied',
+
+  'analytics_storage': 'denied',
+
+ 'regions':[<list of ISO 3166-2 region codes>]
+
+});
+
+// Define el consentimiento predeterminado para el resto de las regiones según tus requisitos
+
+gtag('consent', 'default', {
+
+  'ad_storage': 'denied',
+
+  'ad_user_data': 'denied',
+
+  'ad_personalization': 'denied',
+
+  'analytics_storage': 'denied'
+
+});
+
+</script>
+
+<!--Banner script here!-->
     <header>
         Descarga el Juego - Nombre del Juego
     </header>
